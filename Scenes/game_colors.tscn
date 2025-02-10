@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://dobgbm3xf7nw"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_fiaf4"]
+size = Vector2(50, 50)
+orientation = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_rpecr"]
+size = Vector2(50, 50)
+orientation = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_m072c"]
+size = Vector2(50, 50)
+orientation = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_pvh2k"]
+size = Vector2(50, 50)
+orientation = 2
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Red" type="MeshInstance2D" parent="."]
+position = Vector2(430, 64)
+mesh = SubResource("PlaneMesh_fiaf4")
+
+[node name="Green" type="MeshInstance2D" parent="."]
+position = Vector2(510, 95)
+mesh = SubResource("PlaneMesh_rpecr")
+
+[node name="Blue" type="MeshInstance2D" parent="."]
+position = Vector2(277, 163)
+mesh = SubResource("PlaneMesh_m072c")
+
+[node name="RGB" type="MeshInstance2D" parent="."]
+position = Vector2(151, 70)
+mesh = SubResource("PlaneMesh_pvh2k")

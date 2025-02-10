@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://dsih77qpbqlh7"]
+
+[ext_resource type="Texture2D" uid="uid://sdtlpbtaulhv" path="res://img/cover.webp" id="1_c6ygt"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_ew5o4"]
+panorama = ExtResource("1_c6ygt")
+
+[sub_resource type="Sky" id="Sky_ltpnv"]
+sky_material = SubResource("PanoramaSkyMaterial_ew5o4")
+
+[sub_resource type="Environment" id="Environment_xpewt"]
+background_mode = 2
+sky = SubResource("Sky_ltpnv")
+
+[node name="Environment" type="Node2D"]
+rotation = -0.00223365
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_xpewt")

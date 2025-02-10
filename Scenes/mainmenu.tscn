@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://y7untqcy4qs7"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Play with colors" type="Button" parent="."]
+offset_left = 482.595
+offset_top = 182.078
+offset_right = 612.594
+offset_bottom = 213.078
+text = "Play with colors"
+
+[node name="Basque mythology" type="Button" parent="."]
+offset_left = 467.838
+offset_top = 73.0452
+offset_right = 618.838
+offset_bottom = 104.045
+text = "Basque mythology"
