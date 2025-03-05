@@ -9,6 +9,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Play with colors" type="Button" parent="."]
+layout_mode = 0
 offset_left = 482.595
 offset_top = 182.078
 offset_right = 612.594
@@ -16,6 +17,7 @@ offset_bottom = 213.078
 text = "Play with colors"
 
 [node name="Basque mythology" type="Button" parent="."]
+layout_mode = 0
 offset_left = 467.838
 offset_top = 73.0452
 offset_right = 618.838

@@ -13,7 +13,6 @@ background_mode = 2
 sky = SubResource("Sky_ltpnv")
 
 [node name="Environment" type="Node2D"]
-rotation = -0.00223365
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_xpewt")
